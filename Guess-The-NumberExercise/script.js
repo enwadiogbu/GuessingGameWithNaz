@@ -15,6 +15,8 @@
 
 // Variable for store the correct random number 
 
+let numberGuess = document.getElementById("number-guess").value;
+console.log(numberGuess);
 
 window.onload = function() {
     document.getElementById("number-submit").addEventListener("click", playGame);
